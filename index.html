@@ -30,6 +30,45 @@
 <!-- i <body> har man alt indhold på siden som brugeren kan se -->
 <body>
 
+<div class="container">
+    <div class="row">
+
+        <div class="col-12 col-md-4 col-lg-6">
+            Tekst 1
+        </div>
+
+        <div class="col-12 col-md-8 col-lg-6">
+            Tekst 2
+        </div>
+
+    </div>
+
+    <!-- Farver:
+    ALDRIG farve i "row" - Farve laves i en div rundt om "row"
+    ALDRIG farve i "col" - Farve laves i en div inde i "col"-->
+
+    <div class="bg-primary p-2 mt-3">
+        Tekst
+
+        <div class="bg-success mt-1">
+            <div class="row">
+                <div class="col-12 col-md-6 order-md-3 offset-md-6 col-lg-4 order-lg-1 offset-lg-0">
+                    Tekst 1
+                </div>
+                <div class="col-12 col-md-6 order-md-2 col-lg-4">
+                    <div class="bg-white">
+                        Tekst 2
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 order-md-1 col-lg-4 order-lg-3">
+                    Tekst 3
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
 <!-- Her skal sidens indhold ligge -->
 
 
